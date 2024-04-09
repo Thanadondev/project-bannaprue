@@ -41,8 +41,8 @@ $skilledItems = $conn->query($query);
    <!-- header section end -->
 
    <!-- News Section Start -->
-   <section class="py-1 bg-white">
-      <h2 class="text-3xl font-bold text-center mb-3 mt-16">ข่าวสารล่าสุดจากชุมชนบ้านนาปรือ</h2>
+   <section class="py-5 bg-white">
+      <h2 class="text-3xl font-bold text-center mb-5 mt-16 pb-2">ข่าวสารล่าสุดจากชุมชนบ้านนาปรือ</h2>
       <div class="swiper-container mySwiper mt-16">
          <div class="swiper-wrapper">
             <!-- Dynamic News Items Here -->
@@ -66,7 +66,8 @@ $skilledItems = $conn->query($query);
       </div>
    </section>
    <!-- News Section End -->
-   <!-- About Section -->
+   <hr class="my-2">
+   <!-- Vex Section -->
    <section class="py-16 bg-white">
       <div class="container mx-auto px-4 max-w-screen-xl">
          <div class="flex flex-wrap -mx-4">
@@ -76,18 +77,18 @@ $skilledItems = $conn->query($query);
                <p class="text-lg text-gray-600 mb-8">
                Virtual Exhibition คือ แพลตฟอร์มนิทรรศการเสมือนจริงแบบ 2D & 3D สำหรับกิจกรรมออนไลน์ของคุณโดยเฉพาะ เป็นการจัดนิทรรศการออนไลน์ที่มีแพลตฟอร์มเหตุการณ์เสมือนจริงที่ดีที่สุด ไม่ว่าจะเป็น งานแสดงสินค้า งานนิทรรศการ งานอีเว้นท์ งานประกวดเสมือนจริง รวมไปถึงมีการนำเสนอทั้งสถานที่ คอนเทนต์งาน จำนวนผู้เข้าชม ชมวีดีโอนำเสนองาน ที่เสมือนจริงในทุก ๆ ด้าน และ มีการสำรวจความพึงพอใจ การให้คะแนนเว็บไซต์อีกต่างหาก
                </p>
-               <a href="./output/index.php" class="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-5 rounded-lg transition-colors duration-300">
+               <a href="#" class="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-5 rounded-lg transition-colors duration-300">
                   เริ่มใช้งาน
                </a>
             </div>
             <div class="w-full md:w-1/2 px-4 flex justify-center mb-6 lg:mb-0">
-               <img src="images/fairs-exhibition-banner.png" alt="Vex" class="max-w-sm h-52 rounded-lg shadow-lg" />
+               <img src="images/fairs-exhibition-banner.png" alt="Vex" class="max-w-sm h-72 rounded-lg shadow-lg" />
             </div>
          </div>
       </div>
    </section>
-
-   <!-- About Section End -->
+   <!-- Vex Section End -->
+   <hr class="my-2">
    <!-- About Section -->
    <section class="py-16 bg-white">
       <div class="container mx-auto px-4 max-w-screen-xl">
@@ -107,10 +108,30 @@ $skilledItems = $conn->query($query);
          </div>
       </div>
    </section>
-
    <!-- About Section End -->
-
-
+   <hr class="my-2">
+   <!-- Vex Section -->
+   <section class="py-16 bg-white">
+      <div class="container mx-auto px-4 max-w-screen-xl">
+         <div class="flex flex-wrap -mx-4">
+            
+            <div class="w-full md:w-1/2 px-4">
+               <h2 class="text-4xl font-semibold text-gray-800 mb-5">Location based การใช้งานที่เน้นตำแหน่งที่ตั้งของผู้ใช้เป็นหลัก</h2>
+               <p class="text-lg text-gray-600 mb-8">
+               "ยินดีต้อนรับสู่เว็บไซต์ของเราที่นำเสนอการใช้งานที่เน้นตำแหน่งที่ตั้งของผู้ใช้เป็นหลัก เราออกแบบมาเพื่อให้คุณสามารถค้นหาสิ่งที่คุณต้องการได้อย่างรวดเร็วและง่ายดาย เพียงแค่เปิดใช้งานบริการตำแหน่งที่ตั้งบนอุปกรณ์ของคุณ และเว็บไซต์ของเราจะทำหน้าที่คัดกรองและแสดงผลการค้นหาที่เหมาะสมที่สุดสำหรับคุณ ด้วยเทคโนโลยีขั้นสูง, เรามั่นใจว่าคุณจะได้รับประสบการณ์ที่เหนือกว่าและสะดวกสบายในการใช้งาน เราเชื่อมั่นว่าการเข้าถึงข้อมูลตามตำแหน่งที่ตั้งจะช่วยให้ชีวิตของคุณง่ายขึ้นและเต็มไปด้วยความสะดวกสบาย สำรวจได้เลยวันนี้กับเรา!"
+               </p>
+               <a href="#" class="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-5 rounded-lg transition-colors duration-300">
+                  เริ่มใช้งาน
+               </a>
+            </div>
+            <div class="w-full md:w-1/2 px-4 flex justify-center mb-6 lg:mb-0">
+               <img src="images/locationbase.jpeg" alt="location" class="max-w-sm h-72 rounded-lg shadow-lg" />
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- Vex Section End -->
+   <hr class="my-2">
    <!-- Heroes Section Start -->
    <section class="py-16 bg-green-100">
       <div class="container mx-auto px-4">
