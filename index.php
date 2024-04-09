@@ -110,7 +110,7 @@ $skilledItems = $conn->query($query);
    </section>
    <!-- About Section End -->
    <hr class="my-2">
-   <!-- Vex Section -->
+   <!-- Location Section -->
    <section class="py-16 bg-white">
       <div class="container mx-auto px-4 max-w-screen-xl">
          <div class="flex flex-wrap -mx-4">
@@ -130,7 +130,7 @@ $skilledItems = $conn->query($query);
          </div>
       </div>
    </section>
-   <!-- Vex Section End -->
+   <!-- Location Section End -->
    <hr class="my-2">
    <!-- Heroes Section Start -->
    <section class="py-16 bg-green-100">
