@@ -39,7 +39,7 @@ $skilledItems = $conn->query($query);
    include_once('header.php')
    ?>
    <!-- header section end -->
-   
+
    <!-- News Section Start -->
    <section class="py-1 bg-white">
       <h2 class="text-3xl font-bold text-center mb-3 mt-16">ข่าวสารล่าสุดจากชุมชนบ้านนาปรือ</h2>
@@ -50,7 +50,7 @@ $skilledItems = $conn->query($query);
                <div class="swiper-slide">
                   <div class="group relative">
                      <div class="w-full h-72 bg-cover bg-center rounded-lg" style="background-image: url('..\..\uploads<?php echo htmlspecialchars($item['images']); ?>');">
-                     <div class="absolute inset-0 bg-gradient-to-b from-transparent to-gray-900 rounded-lg"></div>
+                        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-gray-900 rounded-lg"></div>
                      </div>
                      <div class="absolute bottom-0 left-0 p-6">
                         <h3 class="text-xl font-bold text-white"><?php echo htmlspecialchars($item['title']); ?></h3>
@@ -66,6 +66,28 @@ $skilledItems = $conn->query($query);
       </div>
    </section>
    <!-- News Section End -->
+   <!-- About Section -->
+   <section class="py-16 bg-white">
+      <div class="container mx-auto px-4 max-w-screen-xl">
+         <div class="flex flex-wrap -mx-4">
+            
+            <div class="w-full md:w-1/2 px-4">
+               <h2 class="text-4xl font-semibold text-gray-800 mb-5">เราขอนำเสนอระบบ Virtual Exhibition การจัดนิทรรศการที่เสมือนจริง</h2>
+               <p class="text-lg text-gray-600 mb-8">
+               Virtual Exhibition คือ แพลตฟอร์มนิทรรศการเสมือนจริงแบบ 2D & 3D สำหรับกิจกรรมออนไลน์ของคุณโดยเฉพาะ เป็นการจัดนิทรรศการออนไลน์ที่มีแพลตฟอร์มเหตุการณ์เสมือนจริงที่ดีที่สุด ไม่ว่าจะเป็น งานแสดงสินค้า งานนิทรรศการ งานอีเว้นท์ งานประกวดเสมือนจริง รวมไปถึงมีการนำเสนอทั้งสถานที่ คอนเทนต์งาน จำนวนผู้เข้าชม ชมวีดีโอนำเสนองาน ที่เสมือนจริงในทุก ๆ ด้าน และ มีการสำรวจความพึงพอใจ การให้คะแนนเว็บไซต์อีกต่างหาก
+               </p>
+               <a href="./output/index.php" class="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-5 rounded-lg transition-colors duration-300">
+                  เริ่มใช้งาน
+               </a>
+            </div>
+            <div class="w-full md:w-1/2 px-4 flex justify-center mb-6 lg:mb-0">
+               <img src="images/fairs-exhibition-banner.png" alt="Vex" class="max-w-sm h-52 rounded-lg shadow-lg" />
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- About Section End -->
    <!-- About Section -->
    <section class="py-16 bg-white">
       <div class="container mx-auto px-4 max-w-screen-xl">
@@ -104,8 +126,8 @@ $skilledItems = $conn->query($query);
                <div class="overflow-hidden rounded-lg shadow-lg transition duration-300 ease-in-out hover:shadow-xl">
                   <!-- Image -->
                   <div class="w-full h-56 bg-cover bg-center rounded-lg" style="background-image: url('..\..\uploads<?php echo htmlspecialchars($item['images']); ?>');">
-                        
-                     </div>
+
+                  </div>
 
                   <!-- Content -->
                   <div class="px-6 py-4 bg-white">

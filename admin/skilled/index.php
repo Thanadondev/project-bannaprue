@@ -64,7 +64,7 @@ try {
 <body class="bg-gray-100">
     <?php include_once('nav.php') ?>
     <div class="container mx-auto px-4 mt-3">
-    <div class="grid md:grid-cols-3 gap-4">
+        <div class="grid md:grid-cols-3 gap-4">
             <!-- Total News -->
             <div class="bg-white p-4 rounded-lg shadow">
                 <h4 class="font-semibold text-lg">ข่าวทั้งหมด</h4>

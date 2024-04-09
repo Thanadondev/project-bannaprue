@@ -63,7 +63,7 @@ if (isset($_POST['submit'])) {
 
         $message = "มีข่าวใหม่เพิ่มเข้ามา:\nหัวข้อข่าว: $title\n เพิ่มเติม$description\nเข้าสู่เว็บไซต์:<a href='http://localhost/bannaprue/'>\nดูรายละเอียด: $uploadPath";
         $lineToken = 'GP221CRjNQr0RBlqJwpe6SV8jXm2AkdaRjJGrcEqjYl'; // ตรวจสอบให้แน่ใจว่าใช้ Token ที่ถูกต้อง
-        $testimages = "https://media.discordapp.net/attachments/384303454681694208/1189870067865882664/V8IGt9plySJIX9fOeHmA--1--xo7my.jpg?ex=6620eeda&is=660e79da&hm=d215954eec9f6ab5614c0baadbc82fdd15b9405333687dfdc3aed566a552a352&=&format=webp&width=671&height=671";
+        $testimages = "https://cdn.discordapp.com/attachments/1027523778206502972/1227132343949463582/original-1612432687484.png?ex=66274b0d&is=6614d60d&hm=e84d8d492382988264be6943e6c4f1d8fc358b197cc42c07137498302215c8a3&";
         // เรียกใช้งานฟังก์ชัน lineNotifyMessage และส่ง path ของรูปภาพ
         $response = lineNotifyMessage($lineToken, $message, $testimages); // ตรวจสอบให้แน่ใจว่า $uploadPath สามารถเข้าถึงได้จากอินเทอร์เน็ต
 
